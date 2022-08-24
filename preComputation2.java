@@ -5,14 +5,14 @@ public class preComputation2 {
     public static void main(String gg[])
     {
         Scanner sc=new Scanner(System.in);
-		int n=sc.nextInt();
-		long p=sc.nextLong();
-		long q=sc.nextLong();
-		long r=sc.nextLong();
-		long array[]=new long[n];
-		for(int i=0;i<n;i++){
-			array[i]=sc.nextLong();
-		}
+	int n=sc.nextInt();
+	long p=sc.nextLong();
+	long q=sc.nextLong();
+	long r=sc.nextLong();
+	long array[]=new long[n];
+	for(int i=0;i<n;i++){
+		array[i]=sc.nextLong();
+	}
         long PM[]=new long[n];
         long SM[]=new long[n];
         PM[0]=p*array[0];
